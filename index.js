@@ -11,7 +11,7 @@ function findMatching(drivers, name) {
      return drivers.filter(driver=> driver.startsWith(letters))
 }
 
-const drivers = [
+let drivers = [
      {
        name: 'Bobby',
        hometown: 'Pittsburgh' },
@@ -29,13 +29,9 @@ const drivers = [
        hometown: 'Tampa Bay' }
    ];
   
- function matchName(drivers) {
-     return drivers.filter(driver=>driver.name===('Bobby'))
- }
-
-  function matchName(drivers) {
- return drivers.filter(driver=>driver.name===('Bobby'))
- }
+function matchName(drivers) {
+  return drivers.filter(driver=>driver.name===('Bobby'))
+}
 
 
- 
+
